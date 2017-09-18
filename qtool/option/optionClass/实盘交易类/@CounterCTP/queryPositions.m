@@ -12,8 +12,8 @@ end
 
 [positionArray, ret] = ctpcounter_getpositions(self.counterId, code);
 
-if ~ret
-    disp('≤È—Ø≥÷≤÷ ß∞‹');
-end
+% if ~ret
+%     disp('≤È—Ø≥÷≤÷ ß∞‹');
+% end
     
 end
