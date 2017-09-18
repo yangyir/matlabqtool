@@ -1,0 +1,35 @@
+程刚 20130419
+添加新类：tgt，作为函数容器，用于生成 目标序列
+现只有一个函数：momentumStart
+并有一个private函数：calck
+
+
+程刚 20130409
+
+Bars 类中新加入properties：
+
+    properties (SetAccess = 'private', GetAccess = 'public', Hidden = false)
+        %change of Open Interest
+        dOpenInterest;
+    end
+	 
+    % redundant, but convenient
+    properties (SetAccess = 'private', GetAccess = 'public', Hidden = true)
+        len;
+    end
+
+Bars 类中新加入方法：	
+   methods (Access = 'public', Static = false, Hidden = false)
+        plotind(obj, ind);
+        objnew = autocalc(obj);
+    end
+	
+
+潘其超 20130416
+新加类 FPortCurrStatus 于
+Y:\qtool\framework\@FPortCurrStatus
+Demo在：
+Y:\qtool\demo\D_FPortCurrStatus.m
+这个类适用于期货市场。
+可用于记录当前仓位信息，并执行加仓（开多，空仓），减仓，平仓，翻仓，设定最大增持次数，
+对新建仓位设立止损，测试当前仓位是否触及止损等操作。

@@ -1,0 +1,23 @@
+CTPCounter::HandleConnected
+CTPCounter::HandleUserLoginResponse
+--->>> ErrorID=3, ErrorMsg=CTP:不合法的登录
+CTPCounter::HandleConnected
+CTPCounter::HandleUserLoginResponse
+--->>> ErrorID=3, ErrorMsg=CTP:不合法的登录
+CTPCounter::HandleConnected
+CTPCounter::HandleUserLoginResponse
+--->>> ErrorID=3, ErrorMsg=CTP:不合法的登录
+CTPCounter::HandleConnected
+CTPCounter::HandleUserLoginResponse
+--->>> ErrorID=3, ErrorMsg=CTP:不合法的登录
+CTPCounter::HandleConnected
+CTPCounter::HandleUserLoginResponse
+CTPCounter::HandleSettlementInfoConfirmResponse
+CTPCounter::HandleConnected
+CTPCounter::HandleUserLoginResponse
+CTPCounter::HandleSettlementInfoConfirmResponse
+CTPCounter::HandleDisconnected Reason : 0
+CTPCounter::HandleConnected
+CTPCounter::HandleUserLoginResponse
+CTPCounter::HandleSettlementInfoConfirmResponse
+CTPCounter::HandleDisconnected Reason : 0

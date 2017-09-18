@@ -1,0 +1,45 @@
+XSpeedCounter::HandleConnected
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleStockUserLogin Stock Local Id:  1
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleOptUserLogin
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryStockFund
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptFund
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:17 : XSpeedCounter::HandleQueryOptPosition
+2017-Feb-03 13:58:36 : XSpeedCounter::HandleOptEntrustOrder
+该期权代码不存在SH510050
+2017-Feb-03 14:03:03 : XSpeedCounter::HandleOptEntrustOrder
+该期权代码不存在SH510050
+XSpeedCounter::HandleStockEntrustOrderResponse
+--->>> ErrorID=-920001407, ErrorMsg=A股委托:找不到该证券代码!

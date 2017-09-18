@@ -1,0 +1,54 @@
+2013_04_15  陈杰 evaluator/@eval
+
+添加：
+gainRateExcMax：扣除最大盈利后收益率
+gainRateExcMax：扣除最大亏损后收益率
+gainRateExcMaxNpercentRet： 扣除最大N%盈利后的收益率
+loseRateExcMaxNpercentRet： 扣除最大N%亏损后的收益率
+maxConLossTime：    最大连续亏损次数 
+MaxConGainTime：    最大连续盈利次数
+CoinAnalysis:       正态性分布检验
+conditionalSharpe： CVar的计算
+excessReturnOnVaR： 基于VaR的超额收益比
+kappa3：            计算Kappa3
+omegaCoefficient：  计算omega系数 
+modifiedSharpe：    计算修正夏普比
+sterlingRatio：     计算sterling ratio
+treynorCoefficient：计算Treynor ratio
+
+
+2013_04_23   张延     indicator/@tai
+
+修改了tai类的返回值，此版本只返回信号，不返回具体的指标数值，如果需要使用具体的指标，调用ind类的对应函数即可。Atr不返回信号！
+增加了参数type，控制产生信号的方法。其中，type==1时对应基本的信号产生方法，可能的话与mc等平台的方法保持一致。
+原来的Crossover函数有变化，新版本为crossOver,返回值为01信号。
+
+2013_04_24 张航	 indicator/@tai/Sar	indicator/@tai2
+
+Sar的long，short信号产生改用crossOver。
+加入tai2类，输入bars，调用对应tai函数计算信号
+
+2013_06_03 华骏 新增reframeBars 改变日内数据的频率
+
+2013_06_07 添加MatlabReceiver (潘其超）
+
+2013_10_17，luhuaibao，添加文件夹：【Classification & Statistics】。功能：针对时间序列，设计分类方式，对特征量统计分析，可运行demo.m文件体验。
+
+2013_10_18, luhuaibao,添加指标kdjMC，在原kdj基础上，参照MC写法，与原kdj不同之处有二：
+%               相对原@ind下的指标kdj，添加参数maType，1为简单平滑，2为指数平滑;
+%               同时，对原para1,para2,para3,para4参数修改。
+
+
+2013_10_22, luhuaibao,在V:\qtool\framework\common下增加timeInt2Num，把replay中的int型的time转换成matlab num型。
+
+
+2013_10_25，luhuaibao，在V:\qtool\indicator下添加文件夹ind2，存放类化后的常用指标，适用于仿真及实盘
+2013_10_25, luhuaibao, 考虑到bar下新加latest，而且latest的数值与实盘运行时其他域的长度不一致，，对ind2进行了修改。
+
+2014_1_2, hequn, 添加V:\qtool\sliceTool\SliceMaker,对数据格式为 "Date","Time","Price","Volume" 的数据进行切片处理
+
+2014.4.22， luhuaibao, V:\root\qtool\framework\common\timeInt2Num, 修改返参，返回的不包括date，只有floor
+2014.4.23， luhuaibao, 打包evaluator和pattern，因为其下的backtest是历史版本，散开会与最新版本冲突。
+
+
+

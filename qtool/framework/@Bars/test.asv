@@ -1,0 +1,12 @@
+fn = fieldnames(bs);
+
+for i = 1:length(fn)
+    fn{i}
+%     sum(bs.xxx == bs_ori.xxx)
+%     eval( ['sum(bs.' fn{i} '==bs_ori.' fn{i} ')' ] );
+    
+    eval( ['a = bs.' fn{i} ';'] );
+    eval( ['ori = bs_ori.' fn{i} ';'] );
+    
+    
+end

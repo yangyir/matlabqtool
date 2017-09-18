@@ -1,0 +1,104 @@
+XSpeedCounter::HandleConnected
+2017-Jun-27 09:28:27 : XSpeedCounter::HandleStockUserLogin Stock Local Id:  1
+2017-Jun-27 09:28:27 : XSpeedCounter::HandleOptUserLogin
+2017-Jun-27 09:28:27 : XSpeedCounter::HandleQueryStockFund
+2017-Jun-27 09:28:27 : XSpeedCounter::HandleQueryOptFund
+2017-Jun-27 09:28:27 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:27 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:27 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:27 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:27 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:28 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:28 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:29 : XSpeedCounter::HandleQueryOptFund
+2017-Jun-27 09:28:29 : XSpeedCounter::HandleQueryStockFund
+2017-Jun-27 09:28:29 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:29 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:29 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:29 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:29 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:29 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:29 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:30 : XSpeedCounter::HandleQueryOptFund
+2017-Jun-27 09:28:30 : XSpeedCounter::HandleQueryStockFund
+2017-Jun-27 09:28:30 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:30 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:30 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:30 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:30 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:30 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:30 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:34:38 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:34:49 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:34:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:35:01 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:35:07 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:35:12 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:35:20 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:36:27 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:36:50 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 09:36:51 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 09:36:51 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 09:36:52 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 09:36:52 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 09:36:53 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 09:38:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 09:38:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 09:42:18 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:45:46 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:46:09 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:05:13 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:25:00 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:28:49 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:33:29 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:34:55 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:36:05 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:36:09 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:40:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:40:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:40:57 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:41:01 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:42:05 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:44:55 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:45:55 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:57 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:58 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:01 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:43 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:50:38 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:51:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:52:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:52:13 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:52:13 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:52:20 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:54:41 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:54:53 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:54:53 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:55:45 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:55:45 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:55:48 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:55:49 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:55:49 : XSpeedCounter::HandleOptTradeRtn
+XSpeedCounter::HandleDisconnected
+XSpeedCounter::HandleConnected
+2017-Jun-27 10:58:03 : XSpeedCounter::HandleStockUserLogin Stock Local Id:  1
+2017-Jun-27 10:58:03 : XSpeedCounter::HandleOptUserLogin

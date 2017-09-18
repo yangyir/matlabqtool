@@ -1,0 +1,1449 @@
+XSpeedCounter::HandleConnected
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleStockUserLogin Stock Local Id:  1
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleOptUserLogin
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryStockFund
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptFund
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:31 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptFund
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryStockFund
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:32 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryStockFund
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptFund
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:28:33 : XSpeedCounter::HandleQueryOptPosition
+2017-Jun-27 09:59:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 09:59:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 09:59:53 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:59:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 09:59:53 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:59:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 09:59:53 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:59:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 09:59:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 09:59:53 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:59:53 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 09:59:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:59:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 09:59:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 09:59:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:32 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:00:33 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:00:37 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:37 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:40 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:40 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:40 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:40 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:40 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:40 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:40 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:00:45 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:02:15 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:15 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:15 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:15 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:15 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:15 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:15 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:15 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:15 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:15 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:15 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:15 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:28 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:28 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:28 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:02:28 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:28 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:28 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:28 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:02:28 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:28 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:28 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:28 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:02:28 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:29 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:29 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:29 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:37 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:02:44 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:02:44 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:02:44 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:02:44 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:02:53 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:02:53 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:02:53 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:02:56 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:56 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:56 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:56 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:56 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:56 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:02:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:02:59 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:03:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:03:04 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:03:29 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:03:38 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:03:44 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:03:44 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:03:44 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:03:47 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:03:59 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:03:59 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:31 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:04:34 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:34 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:34 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:34 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:34 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:34 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:35 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:35 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:35 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:35 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:35 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:35 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:38 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:39 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:39 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:39 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:39 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:39 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:39 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:39 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:39 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:39 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:04:39 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:04:39 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:05:18 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:36 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:39 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:39 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:39 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:39 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:39 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:39 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:39 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:39 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:39 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:45 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:45 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:05:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:08:49 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:49 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:49 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:49 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:49 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:50 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:50 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:50 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:50 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:50 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:50 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:50 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:55 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:55 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:08:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptOrderRtn
+部分成交
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:08:58 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:09:07 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:09:07 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:09:07 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:09:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:09:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:09:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:09:17 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:09:23 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:09:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:09:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:09:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:09:31 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:09:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:22 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:22 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:22 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:22 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:22 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:22 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:22 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:22 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:22 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:22 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:22 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:22 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:22 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:23 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:23 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:26 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:26 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:26 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:26 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:27 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:27 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:27 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:27 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:27 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:27 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:27 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:27 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:27 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:27 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:27 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:30 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:33 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:33 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:36 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:36 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:36 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:36 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:36 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:36 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:36 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:36 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:36 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:36 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:36 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:37 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:13:37 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:37 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:37 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:13:45 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:48 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:48 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:48 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:48 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:48 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:13:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:14:00 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:14:00 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:14:00 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:14:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:14:29 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:29 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:29 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:29 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:29 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:29 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:29 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:29 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:29 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:29 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:29 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:29 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:33 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:33 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:33 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:33 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:33 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:33 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:33 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:33 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:33 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:33 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:33 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:34 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:38 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:38 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:38 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:38 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:38 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:38 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:38 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:38 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:38 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:38 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:14:38 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:14:39 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:15:01 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:01 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:01 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:15:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:15:02 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:15:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:15:02 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:15:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:15:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:15:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:15:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:15:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:15:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:15:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:15:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:07 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:15:07 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:15:07 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:15:07 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:15:07 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:15:07 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:15:07 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:15:07 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:15:07 : XSpeedCounter::HandleOptOrderRtn
+部分成交
+2017-Jun-27 10:15:07 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:07 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:15:07 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:15:07 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:08 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:15:08 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:31 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:15:55 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:16:01 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:16:04 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:16:04 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:16:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:16:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:16:16 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:16:22 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:16:22 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:16:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:16:55 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:16:55 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:05 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:05 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:05 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:05 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:05 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:17:50 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:17:50 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:17:50 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:17:50 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:17:50 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:17:50 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:17:50 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:17:50 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:17:50 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:17:50 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:17:51 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:17:51 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:18:10 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:18:10 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:18:10 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:18:10 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:18:10 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:18:10 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:18:10 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:18:10 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:18:10 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:18:10 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:18:11 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:18:11 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:18:23 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:18:26 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:18:26 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:18:33 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:18:57 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:26 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:26 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:26 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:32 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:32 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:32 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:32 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:32 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:32 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:32 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:19:32 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:01 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:01 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:01 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:01 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:01 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:01 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:01 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:01 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:01 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:01 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:01 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:01 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:09 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:09 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:09 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:09 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:10 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:10 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:10 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:10 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:10 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:10 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:10 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:10 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:10 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:17 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:18 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:18 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:20 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:20 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:20 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:20 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:20 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:20 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:20 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:20 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:20 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:20 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:20 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:20 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:23 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:24 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:24 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:24 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:24 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:24 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:24 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:26 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:26 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptOrderRtn
+部分成交
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:27 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:33 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:33 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:42 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:42 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:43 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:43 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:43 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:43 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:43 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:43 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:48 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:48 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:50 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:50 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:50 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:50 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:51 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:51 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:51 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:51 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:51 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:51 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:51 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:51 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:55 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:55 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:55 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:57 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:57 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:57 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:57 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:57 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:57 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:57 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:57 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:57 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:57 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:57 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:20:57 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:57 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:58 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:20:58 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:58 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:20:58 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:12 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:12 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:18 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:24 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:28 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:33 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:33 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:40 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:40 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:43 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:43 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:43 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:43 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:43 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:43 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:21:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:21:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:21:44 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:21:44 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:21:44 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:21:44 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:21:44 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:21:44 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:21:44 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:44 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:21:44 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:21:44 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:44 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:21:44 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:49 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:49 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:49 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:49 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:49 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:49 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:49 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:49 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:49 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:49 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:54 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:55 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:55 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:58 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:21:58 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:22:04 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:22:04 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:22:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:22:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:22:27 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:22:27 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:22:27 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:25:49 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:25:49 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:25:49 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:25:49 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:25:49 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:25:49 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:25:49 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:25:49 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:25:50 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:25:50 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:25:50 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:25:50 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:25:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:25:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:25:53 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:25:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:25:53 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:25:54 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:25:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:25:54 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:25:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:25:54 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:25:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:25:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:26:07 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:26:07 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:26:08 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:26:08 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:26:08 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:26:08 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:26:08 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:26:08 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:26:08 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:26:08 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:26:08 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:26:08 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:30:21 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:30:21 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:30:21 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:30:21 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:30:21 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:30:21 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:30:21 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:30:21 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:30:21 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:30:21 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:30:21 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:30:22 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:30:48 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:30:48 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:30:48 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:30:48 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:30:48 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:30:48 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:30:48 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:30:48 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:30:48 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:30:49 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:30:49 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:30:49 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:30:49 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:30:49 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:30:49 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:02 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:04 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:31:08 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:08 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:08 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:08 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:08 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:08 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:08 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:08 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:08 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:08 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:31:08 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:31:09 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:09 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:31:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:31:09 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:31:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:31:13 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:13 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:13 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:13 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:13 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:13 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:13 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:13 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:13 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:13 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:31:13 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:13 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:31:35 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:32:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:32:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:32:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:32:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:32:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:32:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:32:04 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:32:04 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:32:04 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:32:04 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:32:04 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:32:04 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:32:08 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:32:13 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:32:13 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:32:13 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:32:13 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:32:13 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:32:13 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:32:14 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:32:14 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:32:14 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:32:14 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:32:14 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:32:14 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:32:14 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:32:14 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:32:14 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:33:59 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:33:59 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:33:59 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:33:59 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:33:59 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:33:59 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:33:59 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:33:59 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:00 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:00 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:34:00 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:00 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:00 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:34:00 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:00 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:34:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:43 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:43 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:43 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:43 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:43 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:43 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:43 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:53 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:53 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:53 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:53 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:54 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:34:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:34:54 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:35:00 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:35:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:35:02 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:35:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:35:02 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:35:02 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:35:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:35:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:35:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:35:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:03 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:35:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:35:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:03 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:35:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:06 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:06 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:15 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:21 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:21 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:25 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:30 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:30 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:30 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:37 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:37 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:35:37 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:37:04 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:37:04 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:37:04 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:37:04 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:37:04 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:37:04 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:37:04 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:37:04 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:37:04 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:37:04 : XSpeedCounter::HandleOptEntrustOrder
+2017-Jun-27 10:37:04 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:37:04 : XSpeedCounter::HandleOptOrderRtn
+已报
+2017-Jun-27 10:37:55 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:38:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:38:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:38:08 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:38:08 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:38:13 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:39:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:40:15 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:40:15 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:40:15 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:40:15 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:40:39 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:40:39 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:40:39 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:41:00 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:41:00 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:41:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:41:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:42:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:42:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:42:03 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:42:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:42:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:42:09 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:42:15 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:46 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:50 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:50 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:50 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:50 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:50 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:50 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:50 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:50 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:45:56 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:02 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:05 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:05 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:05 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:05 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:05 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:11 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:11 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:11 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:11 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:11 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:11 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:11 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:17 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:17 : XSpeedCounter::HandleOptTradeRtn
+2017-Jun-27 10:46:17 : XSpeedCounter::HandleOptTradeRtn
+XSpeedCounter::HandleDisconnected
+XSpeedCounter::HandleConnected
+2017-Jun-27 10:58:07 : XSpeedCounter::HandleStockUserLogin Stock Local Id:  1
+2017-Jun-27 10:58:07 : XSpeedCounter::HandleOptUserLogin

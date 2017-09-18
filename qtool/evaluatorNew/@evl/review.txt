@@ -1,0 +1,18 @@
+
+ Annual Yield£º 0.30
+
+ Annual Volatility£º 0.09
+
+ Alpha£º 0.00
+
+ Beta£º -0.01
+
+ MaxConGainTime£º 5.00
+
+ MddVal£º 0.02
+
+ SharpeRatio£º 2.66
+
+ CalmarRatio£º 11.40
+
+ Information ratio£º -2.86

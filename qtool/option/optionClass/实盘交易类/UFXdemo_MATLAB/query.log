@@ -1,0 +1,24 @@
+./QueryAccount.m:    message.prepare(Tagdef.REQUEST_PACKET,'34001');  
+匹配到二进制文件 ./QueryAccount.m
+./QueryCombi.m:        functionID = '31003';
+./QueryCombi.m:        functionID = '31004';
+./QueryCombi.m:        functionID = '31001';
+匹配到二进制文件 ./QueryCombi.m
+./QueryCombiAsset.m:        functionID = '31001';
+./QueryCombiAsset.m:        functionID = '31003';
+./QueryCombiAsset.m:        functionID = '31004';
+匹配到二进制文件 ./QueryCombiAsset.m
+./QueryCombiStock.m:    message.prepare(Tagdef.REQUEST_PACKET,'31001');
+匹配到二进制文件 ./QueryCombiStock.m
+./QueryDeals.m:        functionID = '33003';
+./QueryDeals.m:        functionID = '33004';
+./QueryDeals.m:        functionID = '33001';
+匹配到二进制文件 ./QueryDeals.m
+./QueryEntrusts.m:        functionID = '32003';
+./QueryEntrusts.m:        functionID = '32004';
+./QueryEntrusts.m:        functionID = '32001';
+匹配到二进制文件 ./QueryEntrusts.m
+./QueryFutMargin.m:    functionID = '34003';
+匹配到二进制文件 ./QueryFutMargin.m
+./QueryOptMargin.m:    functionID = '34004';
+匹配到二进制文件 ./QueryOptMargin.m

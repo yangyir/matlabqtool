@@ -1,0 +1,57 @@
+[陆怀宝 20130410]
+
+db下新加函数dataNormalize
+
+% dataNormalize 使股指期货隔夜时间序列连续
+
+function [ price ] = dataNormalize( start_date,nDate,slice_seconds,path )
+
+% start_date输入形式cell，默认为{'IF0Y00_20120104.mat'};
+% nDate 自start_date开始，提取nDate天的数据
+% path 默认路径为Y:\qdata\IF\intraday_bars_60s_daily\
+
+
+
+[陆怀宝 20130319]
+
+FetchAssetList函数参数修改，增加参数index_time，含义：一般指数动态调整，index_time给定某个时间点，查询将针对该时间点进行，默认为当前时间的前一天。
+
+
+        % 修正后：
+        assetList = FetchAssetList( index_name, index_time, conn, table_name )
+
+
+
+
+[陆怀宝 20130318]
+根据策略组提的要求，在 class db 下新建了FetchAsset函数
+
+
+        % 取给定指数的成分股代码列
+        assetList = FetchAssetList( index_name, conn, table_name )
+
+
+更改了以下函数的变量顺序，并设置conn的默认值
+
+        TSMobj = FetchTsm(params, conn);
+        SAobj = FetchSa(params, conn);
+
+使用例子: Z\qtool\test\test_db.m
+
+
+
+[陆怀宝 20130318]
+新建了 class db 用于存放database相关的函数
+
+目前有下列函数：
+
+        % 用于设置参数，然后从database取出一个TsMatrix
+        paramTSM = tsmParams(property, assets, startdate, enddate,tablename, dbname );
+        TSMobj = FetchTsm( conn, params );
+        
+         % 用于设置参数，然后从database取出一个SingleAsset
+        paramSA = saParams(propertiess, asset, startdate, enddate, tablename,dbname  );
+        SAobj = FetchSa( conn, params );
+
+
+使用例子: Z\qtool\test\test_db.m

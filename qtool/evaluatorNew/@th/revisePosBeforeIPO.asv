@@ -1,0 +1,13 @@
+function     [ newPosMat ] = revisePosBeforeIPO( posMat )
+% 修正持仓矩阵；上市前的股票不能持仓
+%   Detailed explanation goes here
+
+
+%% 
+
+% 直接从DH取价格，取出nan，就是没上市
+
+
+
+end
+

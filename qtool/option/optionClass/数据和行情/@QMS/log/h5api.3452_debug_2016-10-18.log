@@ -1,0 +1,3 @@
+#####################[2016-10-18 01:42:49] begin to write log #########################
+[10-18 01:42:49]:[NOTICE]:[h5api.cpp, InitApi, 531]: [h5api][pid: 3452][Lib Version: v1.0.16]
+[10-18 01:42:49]:[ERROR ]:[h5api.cpp, InitApi, 560]: 初始化h5api失败，加载配置文件[test.xml]失败!

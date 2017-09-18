@@ -1,0 +1,29 @@
+S0 = 2, 模拟震荡行情，real vol = 0.3, T = 100交易日
+卖出K = 2.3 的put, imp vol = 0.45, 同时分别用high vol = 0.45 和 low vol = 0.15进行delta hedge
+B = 1000次模拟
+使用high vol 的平均P&L：
+mean_PL_high =
+
+    0.0364
+盈利占比：
+ProfitRatio_high =
+
+    0.9320
+
+使用low vol 的平均P&L：
+mean_PL_low =
+
+    0.0333
+盈利占比：
+ProfitRatio_low =
+
+    0.7320
+
+使用high vol进行delta hedge的P&L - 使用low vol进行delta hedge的P&L （做多该ITM put）：
+mean_H_minus_L =
+
+    0.0031
+使用high vol 优于 使用low vol的频率（做多该ITM put）：
+H_beat_L_Ratio =
+
+    0.5810

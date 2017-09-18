@@ -1,0 +1,153 @@
+2016-Nov-22 15:23:48 : XSpeedQuoteListener::HandleConnected
+2016-Nov-22 15:23:48 : XSpeedQuoteListener::HandleStockUserLoginResponse
+2016-Nov-22 15:23:48 : XSpeedQuoteListener::HandleOptUserLoginResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeStockMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000629 0.4465
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleStockMarketData 510050 2.409
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000625 0.3963
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000615 0.348
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000713 0.3032
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000616 0.298
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000671 0.29
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000714 0.2505
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000617 0.249
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000672 0.2445
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000715 0.2005
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000618 0.1995
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000673 0.2022
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000727 0.2124
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000716 0.151
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000619 0.1511
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000674 0.1629
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000728 0.1827
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000717 0.1003
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000661 0.1058
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000675 0.1277
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000729 0.1528
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000723 0.0503
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000669 0.0679
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000681 0.0979
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000730 0.1282
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000725 0.0077
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000691 0.0376
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000695 0.0745
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000731 0.1064
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000737 0.0002
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000692 0.0194
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000696 0.0555
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000739 0.0876
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000741 0.0001
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000743 0.0084
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000745 0.0384
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000747 0.0714
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000630 0.0006
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000626 0.0007
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000620 0.0008
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000718 0.0001
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000621 0.0011
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000676 0.0092
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000719 0.0001
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000622 0.0016
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000677 0.0135
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000720 0.0001
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000623 0.0023
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000678 0.0213
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000732 0.0436
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000721 0.0001
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000624 0.0039
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000679 0.0313
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000733 0.0612
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000722 0.0001
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000662 0.0087
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000680 0.046
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000734 0.0823
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000724 0.0002
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000670 0.0199
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000682 0.0666
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000735 0.1077
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000726 0.003
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000693 0.0399
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000697 0.0921
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000736 0.1327
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000738 0.0449
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000694 0.0718
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000698 0.123
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000740 0.1636
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000742 0.0949
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000744 0.1119
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000746 0.1563
+2016-Nov-22 15:23:54 : XSpeedQuoteListener::HandleOptMarketData 10000748 0.1963

@@ -1,0 +1,6 @@
+1, 打开界面窗口
+输入变量: qms_(行情) multi(OptStraddleTradingMulti多账户多Book变量)
+命令行窗口输入
+handles = UIFrame.optstraddletrading_entry(qms_, multi)
+
+

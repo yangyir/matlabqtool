@@ -1,0 +1,15 @@
+train time£º04-Jan-2012 09:15:00 - 04-Jul-2012 15:15:00
+Ac:0.10 Macd:0.03 Dmi:0.03 Alligator:0.14 Bollinger:0.14 Bbi:0.24 Trix:0.05 Sar:0.15 Mtm:0.11 thred:0.10
+test period: 05-Jul-2012 09:15:00 - 29-Aug-2012 15:15:00
+test return: 1.11
+
+train time£º07-Mar-2012 09:15:00 - 29-Aug-2012 15:15:00
+Ac:0.10 Dmi:0.06 Alligator:0.30 Bollinger:0.11 Bbi:0.11 Sar:0.10 Psy:0.12 Mtm:0.10 thred:0.10
+test period: 30-Aug-2012 09:15:00 - 31-Oct-2012 15:15:00
+test return: 1.15
+
+train time£º09-May-2012 09:15:00 - 31-Oct-2012 15:15:00
+Ac:0.11 Alligator:0.22 Bollinger:0.11 Bbi:0.21 Sar:0.21 Mtm:0.13 thred:0.10
+test period: 01-Nov-2012 09:15:00 - 26-Dec-2012 15:15:00
+test return: 1.14
+

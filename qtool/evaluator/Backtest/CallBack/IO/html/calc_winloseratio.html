@@ -1,0 +1,178 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>calc_winloseratio</title><meta name="generator" content="MATLAB 7.14"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2012-12-30"><meta name="DC.source" content="calc_winloseratio.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, tt, code { font-size:12px; }
+pre { margin:0px 0px 20px; }
+pre.error { color:red; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+
+  </style></head><body><div class="content"><pre class="codeinput"><span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">% &#26412;&#20989;&#25968;&#29992;&#20110;&#35745;&#31639;&#31574;&#30053;&#22312;&#36215;&#22987;&#26085;&#21644;&#25130;&#27490;&#26085;&#20043;&#38388;&#65292;&#20132;&#26131;&#36755;&#36194;&#27425;&#25968;&#65288;&#20004;&#27425;&#20132;&#26131;&#20043;&#38388;&#65289;&#20197;&#21450;&#24179;&#22343;&#30408;&#21033;&#12289;&#24179;&#22343;&#25439;&#22833;&#12290;</span>
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="keyword">function</span> [wintradetime,losetradetime,totaltradetime,win_averet,lose_averet,winratio1,winratio2]<span class="keyword">...</span>
+    = calc_winloseratio(volume,asset,price,benchmark,downloadmark)
+<span class="keyword">if</span> nargin &lt; 5
+    downloadmark =0;
+<span class="keyword">end</span>
+<span class="keyword">if</span>  all(volume(1,2:end)==0)
+    volume = volume(2:end,:);
+    asset = asset(2:end,:);
+    price = price(2:end,:);
+<span class="keyword">end</span>
+
+<span class="keyword">if</span> all(volume(end,2:end)==0) &amp;&amp; all(asset(end,2:end)==0)
+    volume = volume(1:end-1,:);
+    asset = asset(1:end-1,:);
+    price = price(1:end-1,:);
+<span class="keyword">end</span>
+
+<span class="comment">% &#25104;&#20132;&#20215;&#26684;&#24207;&#21015;</span>
+price = [ones(size(price,1),1),price];
+<span class="comment">% &#25104;&#20132;&#21518;&#36164;&#20135;&#20215;&#20540;&#24207;&#21015;</span>
+account = zeros(size(asset,1),1);
+<span class="keyword">for</span> Index = 1 : size(asset,1)
+    account(Index) = asset(Index,:)*(price(Index,:))';
+<span class="keyword">end</span>
+<span class="comment">% &#20004;&#27425;&#20132;&#26131;&#38388;&#25910;&#30410;&#29575;&#24207;&#21015;</span>
+returns = diff(account)./account(1:end-1);
+
+wintradetime = sum(returns&gt;0);
+losetradetime = sum(returns&lt;0);
+totaltradetime = length(returns);
+<span class="comment">% &#24179;&#22343;&#30408;&#21033;&#19982;&#24179;&#22343;&#25439;&#22833;</span>
+<span class="keyword">if</span> wintradetime ~= 0
+    win_averet = sum(returns(returns&gt;0))/wintradetime;
+<span class="keyword">else</span>
+    win_averet =0;
+<span class="keyword">end</span>
+<span class="keyword">if</span> losetradetime ~=0
+    lose_averet = sum(returns(returns&lt;0))/losetradetime;
+<span class="keyword">else</span>
+    lose_averet = 0;
+<span class="keyword">end</span>
+
+winratio1 = wintradetime/totaltradetime;
+startdate = datestr(volume(1:end-1,1),29);
+enddate = volume(2:end,1)-1;
+enddate(end) = enddate(end)+1;
+enddate =datestr(enddate,29);
+benchmarkreturns = zeros(size(startdate,1),1);
+<span class="keyword">for</span> Index2 = 1:size(startdate,1)
+    benchmarkreturns(Index2) = F_ANALYSIS_INDEXRETURN(benchmark,startdate(Index2,:),enddate(Index2,:));
+<span class="keyword">end</span>
+winratio2 = sum(returns&gt;benchmarkreturns)/totaltradetime ;
+
+<span class="keyword">end</span>
+</pre><pre class="codeoutput">Error using calc_winloseratio (line 9)
+Not enough input arguments.
+</pre><p class="footer"><br>
+      Published with MATLAB&reg; 7.14<br></p></div><!--
+##### SOURCE BEGIN #####
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 本函数用于计算策略在起始日和截止日之间，交易输赢次数（两次交易之间）以及平均盈利、平均损失。
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+function [wintradetime,losetradetime,totaltradetime,win_averet,lose_averet,winratio1,winratio2]...
+    = calc_winloseratio(volume,asset,price,benchmark,downloadmark)
+if nargin < 5
+    downloadmark =0;
+end
+if  all(volume(1,2:end)==0)
+    volume = volume(2:end,:);
+    asset = asset(2:end,:);
+    price = price(2:end,:);
+end
+
+if all(volume(end,2:end)==0) && all(asset(end,2:end)==0)
+    volume = volume(1:end-1,:);
+    asset = asset(1:end-1,:);
+    price = price(1:end-1,:);
+end
+
+% 成交价格序列
+price = [ones(size(price,1),1),price];
+% 成交后资产价值序列
+account = zeros(size(asset,1),1);
+for Index = 1 : size(asset,1)
+    account(Index) = asset(Index,:)*(price(Index,:))';
+end
+% 两次交易间收益率序列
+returns = diff(account)./account(1:end-1);
+
+wintradetime = sum(returns>0);
+losetradetime = sum(returns<0);
+totaltradetime = length(returns);
+% 平均盈利与平均损失
+if wintradetime ~= 0
+    win_averet = sum(returns(returns>0))/wintradetime;
+else
+    win_averet =0;
+end
+if losetradetime ~=0
+    lose_averet = sum(returns(returns<0))/losetradetime;
+else
+    lose_averet = 0;
+end
+
+winratio1 = wintradetime/totaltradetime;
+startdate = datestr(volume(1:end-1,1),29);
+enddate = volume(2:end,1)-1;
+enddate(end) = enddate(end)+1;
+enddate =datestr(enddate,29);
+benchmarkreturns = zeros(size(startdate,1),1);
+for Index2 = 1:size(startdate,1)
+    benchmarkreturns(Index2) = F_ANALYSIS_INDEXRETURN(benchmark,startdate(Index2,:),enddate(Index2,:));
+end
+winratio2 = sum(returns>benchmarkreturns)/totaltradetime ;
+
+end
+##### SOURCE END #####
+--></body></html>

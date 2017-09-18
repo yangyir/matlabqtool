@@ -1,0 +1,43 @@
+2016-Nov-08 13:48:52 : XSpeedQuoteListener::HandleConnected
+2016-Nov-08 13:48:52 : XSpeedQuoteListener::HandleStockUserLoginResponse
+2016-Nov-08 13:48:52 : XSpeedQuoteListener::HandleOptUserLoginResponse
+2016-Nov-08 13:48:56 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-08 13:48:56 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4367
+2016-Nov-08 13:49:11 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.437
+2016-Nov-08 13:49:26 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.417
+2016-Nov-08 13:49:32 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.417
+2016-Nov-08 13:51:35 : XSpeedQuoteListener::HandleConnected
+2016-Nov-08 13:51:35 : XSpeedQuoteListener::HandleStockUserLoginResponse
+2016-Nov-08 13:51:35 : XSpeedQuoteListener::HandleOptUserLoginResponse
+2016-Nov-08 13:57:27 : XSpeedQuoteListener::HandleConnected
+2016-Nov-08 13:57:27 : XSpeedQuoteListener::HandleStockUserLoginResponse
+2016-Nov-08 13:57:27 : XSpeedQuoteListener::HandleOptUserLoginResponse
+2016-Nov-08 13:58:41 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-08 13:58:41 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4355
+2016-Nov-08 13:58:41 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4355
+2016-Nov-08 14:00:03 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4223
+2016-Nov-08 14:00:03 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4355
+2016-Nov-08 14:00:03 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4355
+2016-Nov-08 14:00:03 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4355
+2016-Nov-08 14:00:23 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4222
+2016-Nov-08 14:00:30 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4222
+2016-Nov-08 14:00:37 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4222
+2016-Nov-08 14:00:44 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4222
+2016-Nov-08 14:01:30 : XSpeedQuoteListener::HandleConnected
+2016-Nov-08 14:01:30 : XSpeedQuoteListener::HandleStockUserLoginResponse
+2016-Nov-08 14:01:30 : XSpeedQuoteListener::HandleOptUserLoginResponse
+2016-Nov-08 14:01:49 : XSpeedQuoteListener::HandleConnected
+2016-Nov-08 14:01:49 : XSpeedQuoteListener::HandleStockUserLoginResponse
+2016-Nov-08 14:01:49 : XSpeedQuoteListener::HandleOptUserLoginResponse
+2016-Nov-08 14:03:37 : XSpeedQuoteListener::HandleConnected
+2016-Nov-08 14:03:37 : XSpeedQuoteListener::HandleStockUserLoginResponse
+2016-Nov-08 14:03:37 : XSpeedQuoteListener::HandleOptUserLoginResponse
+2016-Nov-08 14:11:43 : XSpeedQuoteListener::HandleConnected
+2016-Nov-08 14:11:44 : XSpeedQuoteListener::HandleStockUserLoginResponse
+2016-Nov-08 14:11:44 : XSpeedQuoteListener::HandleOptUserLoginResponse
+2016-Nov-08 14:11:44 : XSpeedQuoteListener::HandleSubscribeOptMarketDataResponse
+2016-Nov-08 14:11:44 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4389
+2016-Nov-08 14:11:56 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4389
+2016-Nov-08 14:12:03 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4389
+2016-Nov-08 14:12:17 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4389
+2016-Nov-08 14:12:24 : XSpeedQuoteListener::HandleOptMarketData 11001139 0.4389

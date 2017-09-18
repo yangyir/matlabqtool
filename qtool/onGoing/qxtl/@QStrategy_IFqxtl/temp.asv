@@ -1,0 +1,79 @@
+DH
+
+indexCode   =  '000300.SH';
+
+arrCode     = DH_E_S_IndexComps('000300.SH','2014-08-06',0);
+arrCode2    = DH_S_INF_Abbr(arrCode);
+
+% 今日权重
+arrWt   = DH_I_WT_ComponentWeight('000300.SH',arrCode,'2014-08-07',1)
+
+
+
+% 各种验证
+arrWt2  = DH_I_WT_ComponentWeight('000300.SH',arrCode,'2014-08-01',1)
+error   = arrWt - arrWt2; 
+sum(arrWt)
+
+%% 验证： 权重变化 = 股票当天收益率
+arrWt   = DH_I_WT_ComponentWeight('000300.SH',arrCode,'2014-08-05',1)
+arrWt2  = DH_I_WT_ComponentWeight('000300.SH',arrCode,'2014-08-06',1)
+error   = arrWt - arrWt2; 
+
+
+
+
+
+
+%%
+DH_I_BA_BasePoints('000300.SH')
+DH_I_BA_BaseDate('000300.SH')
+
+
+%% 验证指数复制
+sdt  = '2014-01-01';
+edt  = '2014-08-01';
+
+arrDt = DH_D_TR_MarketTradingday(3,sdt,edt);
+
+% 
+% indexPx     =  DH_Q_DQ_Index('000300.SH',arrDt,'Close')
+% indexChg    = DH_Q_DQ_Index('000300.SH',arrDt,'PCTChange')
+% % 自己算，检验，不平，是因为分红？
+% tmp_indexChg = [0;diff(indexPx)]./indexPx
+% tmp_error = tmp_indexChg - indexChg
+
+
+% 每只股票合成
+result = nan;
+for idt = 1:length(arrDt)
+%     idt = 1;
+    dt = arrDt(idt,:);
+    
+    arrCode = DH_E_S_IndexComps('000300.SH',dt,0);
+    arrWt   = DH_I_WT_ComponentWeight('000300.SH',arrCode,dt,1);
+    
+    arrStkChg   = DH_Q_DQ_Stock(arrCode,dt,'PCTChange',2);
+    compoChg    = arrWt' * arrStkChg;    
+    indexChg    = DH_Q_DQ_Index('000300.SH',dt,'PCTChange');
+    error       = compoChg - indexChg;
+    
+%     fprintf( '%s: %8.5f  %8.5f,   %8.5f \n', dt, indexChg*100, compoChg*100, error*100);
+    
+    
+    
+    
+    arrWt2  = DH_I_WT_ComponentWeight('000300.SH',arrCode,dt,2);
+    
+    est_arrWt2 = arrWt.* arrStkChg / sum(arrWt.* arrStkChg);
+    error = est_arrWt2 -  arrWt2 
+    fprintf( '%s: %8.5f  %8.5f,   %8.5f \n', dt, indexChg*100, compoChg*100, error*100);
+
+    
+    result(idt,1) = compoChg;
+    result(idt,2) = indexChg;
+    resutl(idt,3) = error;
+end
+
+
+
