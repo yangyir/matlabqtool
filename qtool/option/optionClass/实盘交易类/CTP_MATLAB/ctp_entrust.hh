@@ -8,7 +8,7 @@
 
 #define DLLEXPORT __declspec(dllexport)
 //#define DLLEXPORT 
-class CThostFtdcOrderField;
+struct CThostFtdcOrderField;
 
 class DLLEXPORT CTPEntrust
 {
@@ -21,10 +21,19 @@ public:
 	void SetOrderId(uint64_t entrust_id);
     void SetOrderRefId(uint64_t ref_id);
     void SetExchangeId(const char* exchange_id);
+	void SetEntrustId(uint64_t entrust_id);
+	void SetAssetType(CTPAssetType entrust_type);
+	void SetAssetCode(const char * code);
+	void SetAssetName(const char * name);
+	void SetDirection(int direction);
+	void SetOffset(int offset);
+	void SetPrice(double price);
+	void SetAmount(uint32_t amount);
     CTPAssetType GetAssetType();
     char * GetExchangeId();
     char * GetSystemId();
     char * GetCode();
+	char * GetName();
     uint32_t GetMultiplier();
     void SetMultiplier( uint32_t multi);
     uint64_t GetOrderId();
@@ -55,6 +64,7 @@ private:
     char  entrust_no_[32];
     CTPAssetType  entrust_type_;
     char asset_code_[32];
+	char asset_name_[32];
     char exchange_id_[32];
     // ºÏÔ¼³ËÊý
     uint32_t multiplier_;

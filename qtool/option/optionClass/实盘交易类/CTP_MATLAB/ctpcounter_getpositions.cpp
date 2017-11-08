@@ -27,9 +27,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray* prhs[])
     // Get Position vector from CTP counter dll.
     int elements_num = 0;
     PositionInfo * addr = NULL;
-    QryPosition(counter_id);
-    Sleep(100);
-    bool ret = GetPositions(counter_id, code, elements_num, &addr);
+    bool ret = GetPositionsFromRemote(counter_id, code, elements_num, &addr);
     plhs[0] = mxCreateStructMatrix(1, elements_num, 9, fieldsStruct);
     if (ret)
     {

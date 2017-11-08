@@ -37,8 +37,8 @@ end
 
 %% 下单规则 多个Counter多Book下面,首先下单操作,直到所有的都成交
 
-aimVolumeCall = volume * proportion;
-aimVolumePut  = volume * proportion;
+aimVolumeCall = round(volume * proportion);
+aimVolumePut  = round(volume * proportion);
 len_counter   = length(ctrs);
 
 while true
