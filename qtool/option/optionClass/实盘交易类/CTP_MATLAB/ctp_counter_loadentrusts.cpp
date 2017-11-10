@@ -11,7 +11,7 @@
 
 #pragma comment(lib, "CTP_Counter.lib")
 
-const char * tradefieldsStruct[] = {"asset_code", "target_price",\
+const char * tradefieldsStruct[] = {"asset_code", "asset_name", "target_price",\
         "target_volume", "direction", "offset", "entrust_id",\
         "entrust_no", "deal_volume", "cancel_volume"};
 
@@ -26,7 +26,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray* prhs[])
     CTPEntrust * addr = NULL;
     QueryAllOrder(counter_id, elements_num, &addr);
     bool ret = (elements_num > 0 && addr != NULL);
-    plhs[0] = mxCreateStructMatrix(1, elements_num, 9, tradefieldsStruct);    
+    plhs[0] = mxCreateStructMatrix(1, elements_num, 10, tradefieldsStruct);    
     if (ret)
     {
         // Construct C++ Position Vector.
@@ -44,6 +44,8 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray* prhs[])
         {
             // asset_code
             mxSetField(p, i, "asset_code", mxCreateString(vec[i].GetCode()));
+            // asset_name
+            mxSetField(p, i, "asset_name", mxCreateString(vec[i].GetName()));
             // target price
             mxSetField(p, i, "target_price", mxCreateDoubleScalar(vec[i].GetTargetPrice()));
             // volume

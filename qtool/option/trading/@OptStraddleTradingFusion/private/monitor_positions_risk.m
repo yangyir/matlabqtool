@@ -84,7 +84,7 @@ for i = 1:L
     
     
     sss(i,:) = [num, px, iv, delta1, gamma1, theta, vega, intrinsic_value, time_value];    
-    fprintf('[%s]\t%6.0f\t%4.0f\t%0.1f%%\t %0.1f\t %0.1f\t %0.1f\t %0.1f\t %4.0f\t %4.0f\n',  ...
+    fprintf('[%s]\t%6.0f\t%4.0f\t%0.1f%%\t %5.0f\t %5.1f\t %5.1f\t %4.1f\t %4.0f\t %4.0f\n',  ...
          on, num, px, iv, delta1,  gamma1, theta, vega, intrinsic_value, time_value);
     
     % ¼ÓºÍ

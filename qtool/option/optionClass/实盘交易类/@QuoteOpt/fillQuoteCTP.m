@@ -14,7 +14,11 @@ else
 end
 
 %标的最新价
-s_mkt = getoptquote(num2str(self.underCode));
+if self.srcId == -1
+    s_mkt = getoptquote(num2str(self.underCode));
+else
+    s_mkt = ctpgetquote_mex(self.srcId, num2str(self.underCode));
+end
 self.S = s_mkt(1);
 self.last = mkt(1);%期权最新价
 self.open = mkt(2);

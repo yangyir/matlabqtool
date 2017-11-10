@@ -28,7 +28,8 @@ typedef enum
     INVALID_OPEN_CLOSE_FLAG,
     OPEN,
     CLOSE,
-    CLOSE_TODAY
+    CLOSE_TODAY,
+    CLOSE_YESTERDAY
 }TradeOpenCloseFlag;
 
 typedef enum

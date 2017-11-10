@@ -30,6 +30,8 @@ bool DLLEXPORT QryAccount(int counter_id);
 void DLLEXPORT QryPosition(int counter_id);
 bool DLLEXPORT GetAccountInfo(int counter_id, TraderAccountInfo& account);
 bool DLLEXPORT GetPositions(int counter_id, const char* code, int& num_info, PositionInfo **addr);
+bool DLLEXPORT GetPositionsFromLocal(int counter_id, const char* code, int& num_info, PositionInfo **addr);
+bool DLLEXPORT GetPositionsFromRemote(int counter_id, const char* code, int& num_info, PositionInfo **addr);
 void DLLEXPORT QuerySettlementInfo(int counter_id, const char* trade_day, const char * settle_info_path);
 void DLLEXPORT QueryAllOrder(int counter_id, int& num_entrust, CTPEntrust **entrusts);
 void DLLEXPORT QueryAllTrade(int counter_id);

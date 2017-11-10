@@ -28,8 +28,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
     
     // output values : counter id    
     int counter_id = 0;
-    int available_entrust_id = 0;
-    bool ret = InitCounter(addr, broker, investor, investor_pwd, product_info, authen_code, counter_id, available_entrust_id);
+    bool ret = InitCounter(addr, broker, investor, investor_pwd, product_info, authen_code, counter_id);
     if(ret)
     {        
         mexWarnMsgTxt("Counter Login Success");
@@ -39,6 +38,5 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
         mexWarnMsgTxt("Counter Login Failed");
     }
     plhs[0] = mxCreateDoubleScalar(counter_id);
-    plhs[1] = mxCreateDoubleScalar(available_entrust_id);
     return;
 }
