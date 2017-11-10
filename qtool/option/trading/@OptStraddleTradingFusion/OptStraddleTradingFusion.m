@@ -479,22 +479,16 @@ classdef OptStraddleTradingFusion  < handle
     %% Static
     methods(Static = true)
         % 委托量拆分函数:诸如27-> 10 10 7
-        function this_trading_entrust = split_amount(entrust_amount, N)
+        function this_trading_entrust = split_amount(entrust_amount)
             % 输入：需要委托的下单数量 entrust_amount
             % 输出：单笔委托的下单数量 this_trading_entrust
-            
-            % 50ETF期权默认N=10，其他未必
-            if ~exist('N', 'var')
-                N = 10;
-            end
-            
-            entrust_10s  = floor(entrust_amount/N);
-            entrust_last = mod(entrust_amount, N);
+            entrust_10s  = floor(entrust_amount/10);
+            entrust_last = mod(entrust_amount, 10);
             if entrust_10s
                 if entrust_last
-                    this_trading_entrust = [ones(1, entrust_10s)*N, entrust_last];
+                    this_trading_entrust = [ones(1, entrust_10s)*10, entrust_last];
                 else
-                    this_trading_entrust = ones(1, entrust_10s)*N;
+                    this_trading_entrust = ones(1, entrust_10s)*10;
                 end
             else
                 this_trading_entrust = entrust_last;

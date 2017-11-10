@@ -11,8 +11,6 @@ classdef Entrust < handle
     % 朱江，20170607，增加组合单ID。
     % 朱江，20170608，增加deals域。
     % 程刚，20170708，增加域：rankBE, rankWE 
-    % 何康，20170912，修正了deal_to_position中平仓feeCost为负的bug
-    % 程刚，20171020，println()加入开平仓信息
     
     properties
         % 核心信息 
@@ -24,7 +22,6 @@ classdef Entrust < handle
         price;          % 价格
         direction;      % （@double，setter控制）买卖方向，buy = 1; sell = -1;
         offsetFlag = 1; % （@double，setter控制）开平性质, open = 1; close = -1;
-        closetodayFlag = 0; %% （@double，setter控制）上期所专用，平今平昨, 平今 = 1; 平昨 = 2，默认不设置为0;
                 
         entrustNo;            % 委托编号
         entrustType;          % 委托类型, market, limit, stop, fok etc.
@@ -163,25 +160,6 @@ classdef Entrust < handle
             end
             obj.offsetFlag = vout;
         end    
-
-        function [obj] = set.closetodayFlag(obj, vin)
-            % 平今平昨的规矩不同，Entrust里取数值 平今1， 平昨2
-            if isa(vin, 'char')
-                switch vin
-                    case {'1', 'today', 't'}  % 平今
-                        vout = 1;
-                    case {'2', 'yesterday', 'y'}  % 平昨
-                        vout = 2;
-                    otherwise
-                        vout = 0;
-                end
-            elseif isa(vin, 'double')
-                vout = vin;
-            else
-                vout = 0;
-            end
-            obj.closetodayFlag = vout;
-        end
         
         % volume非负(这应该是委托的数量)
         function [obj] = set.volume(obj, value)
@@ -237,8 +215,8 @@ classdef Entrust < handle
         
         % 委托单的打印(我需要自己制作一个打印的情形)
         function [txt] = println(obj)
-            txt = sprintf('[%d:%s,%s,%d,%d] v=%d=%d+%d, px=(%0.4f, %0.4f, %d)\n', ...
-                obj.entrustNo, obj.instrumentName, obj.instrumentCode, obj.direction, obj.offsetFlag, ...
+            txt = sprintf('[%d:%s,%s,%d] v=%d=%d+%d, px=(%0.4f, %0.4f, %d)\n', ...
+                obj.entrustNo, obj.instrumentName, obj.instrumentCode, obj.direction, ...
                 obj.volume, obj.dealVolume, obj.cancelVolume, ...
                 obj.price, obj.dealPrice, obj.dealAmount);
             if nargout == 0 
@@ -351,7 +329,7 @@ classdef Entrust < handle
             position.longShortFlag  = e.offsetFlag * e.direction; % 开，则direction同longshort，关仓，则direction与longshort相反
             position.faceCost       = e.dealAmount * e.direction; % 这里算的是成本，如果卖，则是负成本
             position.avgCost        = position.faceCost / position.volume; % 平均成本   
-            position.feeCost        = e.calcFee(abs(position.volume));
+            position.feeCost        = e.calcFee(position.volume);
         end
             
         function [position] = entrust_to_position(obj)

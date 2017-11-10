@@ -2,15 +2,12 @@ function error_entrust_amount = clear_holding_by_position(obj, pct, times, compe
 % 依据仓位剩余量方式进行委托平仓
 % 一键清仓函数
 % error_entrust_amount = clear_holding_by_position(obj, pct, times, competitor_rank, beErrContinueEntrust)
-% 输入参数:
-%     pct百分比[0~100],  默认10
-%     times平仓的轮流次数,  默认10
-%     competitor_rank对手价格档数， 默认1
+% 输入参数:pct百分比[0~100],times平仓的轮流次数,competitor_rank对手价格档数
 % 输出参数:未能委托成功的数量和代码
 % ---------------------------
 % 吴云峰 20161115
 
-%%
+
 if ~exist('pct', 'var')
     pct = 10;   % 百分比的值默认为10%
 end

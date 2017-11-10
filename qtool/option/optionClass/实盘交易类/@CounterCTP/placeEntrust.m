@@ -39,13 +39,6 @@ switch (e.offsetFlag)
         offset = 2;
 end
 
-if -1 == e.offsetFlag
-    if 0 ~= e.closetodayFlag
-        % 有平今平昨区分
-        offset = offset + e.closetodayFlag; %调整后平今为3， 平昨为4
-    end
-end
-
 price = e.price;
 amount = e.volume;
 multi = e.multiplier;

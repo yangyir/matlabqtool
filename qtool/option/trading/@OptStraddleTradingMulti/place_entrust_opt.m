@@ -26,6 +26,7 @@ else
     proportion = ones(1, nCount);
     obj.proportion = proportion;
 end
+proportion = round(proportion);
 assert(all(proportion >= 0))
 
 
@@ -58,7 +59,7 @@ assert(px > 0);
 
 % 2,进行委托下单操作
 keys_value      = obj.keys;
-entrust_volumes = round(volume * proportion);
+entrust_volumes = volume*proportion;
 for straddle_t = 1:nCount
     optstratrade_object     = get(obj, keys_value{straddle_t});
     % 2.1,重要:进行赋值

@@ -260,11 +260,7 @@ classdef QMS_Fusion < handle
             obj.historic_put_m2tk_.init_by_quote_mat(obj.putQuotes_);
             
             % init OptionOne M2TK for call and put options. 
-            try 
-                obj.init_opt_ones();
-            catch e
-                disp(e);
-            end
+            obj.init_opt_ones();
             % init opt tau
             obj.calc_tau();
             obj.update_opt_tau();

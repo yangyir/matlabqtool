@@ -3,18 +3,3 @@ CTPCounter::HandleAuthentic
 CTPCounter::HandleUserLoginResponse
 CTPCounter::HandleSettlementInfoConfirmResponse
 CTPCounter::HandleDisconnected Reason : 4097
-CTPCounter::HandleConnected
-CTPCounter::HandleUserLoginResponse
-CTPCounter::HandleSettlementInfoConfirmResponse
-CTPCounter::HandleConnected
-CTPCounter::HandleAuthentic
-CTPCounter::HandleUserLoginResponse
-CTPCounter::HandleSettlementInfoConfirmResponse
-CTPCounter::HandleConnected
-CTPCounter::HandleAuthentic
-CTPCounter::HandleUserLoginResponse
-CTPCounter::HandleSettlementInfoConfirmResponse
-CTPCounter::HandleConnected
-CTPCounter::HandleAuthentic
-CTPCounter::HandleUserLoginResponse
-CTPCounter::HandleSettlementInfoConfirmResponse

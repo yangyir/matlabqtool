@@ -58,8 +58,7 @@ properties(SetAccess = 'public', GetAccess = 'public', Hidden = false)
         timeValue@double = 0;          % 时间价值 
         timeValue_pct@double = 0;      % timeValue_percent : timeValue / S * 100%
         timeValue_pct_a@double = 0;    % timeValue_pct * 1/tau;
-        r@double = 0.035;    % 无风险利率     
-        quoteS;              % underlier 的quote
+        r@double = 0.035;    % 无风险利率        
         latest; % 最后的一个        
     end
     
@@ -823,7 +822,7 @@ properties(SetAccess = 'public', GetAccess = 'public', Hidden = false)
 %             tmp.calc_ask_all_greeks;
             
             S       = obj.S;
-            fprintf('S = %0.3f  |  %s  | mg %0.0f | %s\n', S, datestr(now), obj.margin * obj.multiplier, obj.code);
+            fprintf('S = %0.3f  |  %s  | mg %0.0f\n', S, datestr(now), obj.margin * obj.multiplier);
             fprintf('optName\taskPx\taskQ\tiv\t1%%delta\t1%%gamma\tDtheta\t1%%vega\ttimeV\ttimeV%%\n');
 
             switch(pxType)
@@ -982,9 +981,5 @@ properties(SetAccess = 'public', GetAccess = 'public', Hidden = false)
             end
         end
     end
-    
-    
-    
-    
     
 end

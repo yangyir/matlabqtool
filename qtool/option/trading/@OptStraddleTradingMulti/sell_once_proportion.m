@@ -38,6 +38,7 @@ else
     proportion = ones(1, nCount);
     obj.proportion = proportion;
 end
+proportion = round(proportion);
 assert(all(proportion >= 0))
 
 
