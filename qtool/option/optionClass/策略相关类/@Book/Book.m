@@ -19,6 +19,11 @@ classdef Book < handle
     % 吴云峰 20170406 增加计算两本Book之间的最大值和最小值 [minBook, maxBook] = calc_minmax_book(bookleft, bookright, ratioleft, ratioright)
     % 程刚，201705，增加函数print_margin(bk)，输出风险度
     % 朱江，20170718，增加函数load_entrusts_from_counter(counter),载入委托队列功能,暂时只支持CTP
+    % cg，20171107，增加域numGreeks; valueGreeks; 
+    %           增加函数[]=calc_book_numGreeks(obj), []=calc_book_valueGreeks(obj, S), [] = update_each_position_quote_greeks(obj
+    % 
+                
+ 
     
     properties(SetAccess = 'public', Hidden = false , GetAccess = 'public')
         % 基本信息
@@ -77,7 +82,93 @@ classdef Book < handle
         
         % book date
         date_ = today; %时间信息 
+        
+        % temp, 程刚
+        numGreeks;  % 按数量的greeks，原始定义的
+        valueGreeks;  % 按金额的greeks, 即 1%Delta, 1%Gamma, 1%vega, dtheta, bpRho
     end
+    
+    %% temp, cg， 成功后移入正式
+    methods
+        function [] = calc_book_numGreeks(obj)
+            
+            g = Greeks;
+            L = length( obj.positions.node);
+            for i = 1:L
+                try
+                    pos = obj.positions.node(i);
+                    quote = pos.quote;
+                    
+                    q = quote.multiplier * pos.volume * pos.longShortFlag;
+                    
+                    posDelta = quote.delta * q;
+                    posGamma = quote.gamma * q;
+                    posVega  = quote.vega * q;
+                    posTheta = quote.theta * q;
+                    posRho   = quote.rho * q;
+                    
+                    g.delta = g.delta + posDelta;
+                    g.gamma = g.gamma + posGamma;
+                    g.vega  = g.vega + posVega;
+                    g.theta = g.theta + posTheta;
+                    g.rho   = g.rho + posRho;        
+                catch
+                    warning(' 【取pos——greeks失败】');
+                end
+            
+            
+            end
+            obj.numGreeks = g;
+            
+        end
+        
+        function [] = calc_book_valueGreeks(obj, S )
+            
+            if ~exist('S', 'var')
+                warning('NO input S, use default value 1');
+                S = 1;                
+            end
+            
+            
+            obj.calc_book_numGreeks();
+            
+            obj.valueGreeks.delta   = obj.numGreeks.delta * S*0.01;
+            obj.valueGreeks.gamma   = obj.numGreeks.gamma * S*S*0.0001;
+            obj.valueGreeks.vega    = obj.numGreeks.vega * 0.01;
+            obj.valueGreeks.theta   = obj.numGreeks.theta / 365;
+            obj.valueGreeks.rho     = obj.numGreeks.rho * 0.0001;
+                        
+        end
+        
+        % 把每一position.quote的greeks都重算一遍
+        function [] = update_each_position_quote_greeks(obj,S, rfr)
+            
+            
+            L = length( obj.positions.node);
+            
+            for i = 1:L
+                try
+                    quote = obj.positions.node(i).quote;
+                    if exist('S', 'var'), quote.S = S;  end
+                    if exist('rfr', 'var'), quote.r = rfr;  end
+                    
+                    quote.calc_last_all_greeks();
+                    
+                catch
+                    warning(' 【取pos——greeks失败】');
+                end
+            end
+        end
+        
+        function [f] = foo(obj)
+            
+        end
+        
+        
+        
+    end
+    
+    
     
     %%
     methods
@@ -785,24 +876,33 @@ classdef Book < handle
             % function [book] = load_book_from_counter(book, counter)
             % 从柜台中读取持仓信息和资金信息，用其设置book中的相应信息。
             % 默认恒生柜台为期权户。未来若有额外需求，再完善之
-            
+            if isa(counter, 'CounterCTP')               
+                book.load_entrusts_from_counter(counter);
+            end
+            book.sync_account_with_counter(counter);                        
+            book.sync_positions_with_counter(counter);    
+        end
+        
+        function [] = sync_account_with_counter(book, counter)
+            %function [] = sync_account_with_counter(book, counter)
             if isa(counter, 'CounterHSO32')
                 cashObj = Cash;
                 cashObj.loadOptCash(counter);
                 book.cash = cashObj.optAvailableCash;
                 book.cashMargin = cashObj.optOccupiedMargin;
             else
+                pause(1);
                 [account] = book.read_account_from_counter(counter);
                 book.cash = account.available_fund;
                 book.cashMargin = account.current_margin;
-                if isa(counter, 'CounterCTP')
-                    book.load_entrusts_from_counter(counter);
-                end
             end
-
+        end
+        
+        function [] = sync_positions_with_counter(book, counter)
+            %function [] = sync_positions_with_counter(counter)
+            % 将同步持仓的函数单独拎出来。
             [positionsarray] = book.read_position_from_counter(counter);
             book.positions = positionsarray;
-            
         end
         
         function [] = load_entrusts_from_counter(obj, counter)
@@ -816,6 +916,7 @@ classdef Book < handle
                         einfo = earray(i);
                         e = Entrust;
                         e.instrumentCode = einfo.asset_code;
+                        e.instrumentName = einfo.asset_name;
                         e.price = einfo.target_price;
                         e.volume = einfo.target_volume;
                         e.direction = einfo.direction;

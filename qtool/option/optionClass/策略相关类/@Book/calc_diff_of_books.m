@@ -18,7 +18,7 @@ if ~exist('rate', 'var')
 end
 assert(rate > 0)
 if ~exist('printstyle', 'var')
-    printstyle = 'no';
+    printstyle = 'all';
 end
 assert(ismember(printstyle, {'all','diff','no'}))
 

@@ -5,6 +5,9 @@ classdef OptStraddleTradingMulti < handle
     % 吴云峰 20161127 加入比率下单函数 place_entrust_opt_proportion(obj, direc, volume, offset, px, proportion);
     % 吴云峰 20161221 添加monitor_strangle_delta0_S0和monitor_iv_vega_theta(obj, px_type);
     % 吴云峰 20160115 bridge_gap_between_straddle(obj, std_name, prct, proportion);
+    % 程刚，20171010，添加小函数        function [ ] = monitor_cash_occupied(multi)
+    % 程刚，20171010，添加小函数，自己用  []= monitor_cg(self)
+
     
     
     properties(Access = 'private')
@@ -81,6 +84,21 @@ classdef OptStraddleTradingMulti < handle
             stra.call = self.call;
             stra.put  = self.put;
             stra.monitor_iv_vega_theta(px_type);
+        end
+        
+        function [ summargin ] = monitor_cash_occupied(multi)
+           
+            marc = multi.call.margin() * multi.call.multiplier;
+            marp = multi.put.margin() * multi.put.multiplier;
+            summargin = marc + marp;
+            fprintf('co%4.0f = C%4.0f + P%4.0f \n', summargin, marc, marp);            
+            
+        end
+        
+        function []= monitor_cg(self)
+            self.monitor_strangle_delta0_S0;
+            self.monitor_iv_vega_theta('both');
+            self.monitor_cash_occupied;
         end
         
         %% 设置委托的期权代码
