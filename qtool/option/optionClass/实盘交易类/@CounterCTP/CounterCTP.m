@@ -186,7 +186,6 @@ classdef CounterCTP  < handle
         
         huaxi_wangzhe_opt('tcp://140.207.227.81:41205', '16337', '8880000035', '458230', 'Option');
         huaxi_wangzhe_etf('tcp://140.207.227.83:41205', '16337', '0000000035', '458230', 'ETF');        
-        huaxi_wangzhe_fut('tcp://180.168.102.225:51205','16333','119603','458230','Future');
         
         xingzheng_test_opt('tcp://58.32.234.179:15656', '8200', '32200062', '32200062', 'Option', 'centuryprk', 'E13CC9YIHC0M6Z2N');
         xingzheng_opt('tcp://124.74.247.103:18686', '8200', '813200663', '458230', 'Option');
@@ -205,10 +204,10 @@ classdef CounterCTP  < handle
         chengxiang_masaimala_opt('tcp://124.74.247.103:18686', '8200', '813200658', '183488', 'Option', 'chenxiang', '8S9MPXYRPEZZHIT6');
         chengxiang_nanshan_opt  ('tcp://124.74.247.103:18686', '8200', '813200659', '183488', 'Option', 'chenxiang', '8S9MPXYRPEZZHIT6');
 
-        citic_kim_fut('tcp://180.169.101.177:41205','66666','101003196','770424','Future');
-        
-        huaxin_liyang_fut('tcp://180.169.70.179:41205','10001','930490003','204090','Future');
+%         citic_kim_fut('tcp://180.169.101.177:41205','66666','101003196','770424','Future');
 
+        xingzheng_boyi_opt('tcp://124.74.247.103:18686', '8200', '813200668', '458230', 'Option', 'axinganxin', '0CGCWRSQ10UM5AAK');
+        xingzheng_boyi_etf('tcp://124.74.247.103:19696', '8200', '0013200668', '458230', 'ETF', 'axinganxin', 'ZZB5YQ4SPM8T1IKF');
     end
 
     
