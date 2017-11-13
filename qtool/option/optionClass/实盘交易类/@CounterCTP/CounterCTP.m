@@ -185,7 +185,12 @@ classdef CounterCTP  < handle
         huaxi_montecarlo_fut('tcp://180.168.102.233:41205', '16333', '119605', '161107', 'Future');
         
         huaxi_wangzhe_opt('tcp://140.207.227.81:41205', '16337', '8880000035', '458230', 'Option');
+<<<<<<< HEAD
         huaxi_wangzhe_etf('tcp://140.207.227.83:41205', '16337', '0000000035', '458230', 'ETF');        
+=======
+        huaxi_wangzhe_etf('tcp://140.207.227.83:41205', '16337', '0000000035', '458230', 'ETF');
+        huaxi_wangzhe_fut('tcp://180.168.102.225:51205','16333','119603','458230','Future');
+>>>>>>> 53deee9ed6667b03dbfe092dd0664981ebbbb81d
         
         xingzheng_test_opt('tcp://58.32.234.179:15656', '8200', '32200062', '32200062', 'Option', 'centuryprk', 'E13CC9YIHC0M6Z2N');
         xingzheng_opt('tcp://124.74.247.103:18686', '8200', '813200663', '458230', 'Option');
