@@ -94,6 +94,10 @@ classdef Entrust < handle
         % 增加trades域，用在分析过程中。
         deals_@DealArray;
     end
+    
+    properties
+        signalinfo_@struct
+    end
 
     methods
         % 基础方法，constructor， copy constructor， display
