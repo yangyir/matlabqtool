@@ -209,6 +209,8 @@ classdef CounterCTP  < handle
         citic_kim_fut('tcp://180.169.101.177:41205','66666','101003196','770424','Future');
         huaxin_liyang_fut('tcp://180.169.70.179:41205','10001','930490003','204090','Future');
         ccb_liyang_fut('tcp://116.236.253.145:41205','95533','52013132','2011Sep29','Future');
+        demo_sunq_fut('tcp://180.168.146.187:10000','9999','081059','zyx5711213','Future');
+        
 
         xingzheng_boyi_opt('tcp://124.74.247.103:18686', '8200', '813200668', '458230', 'Option', 'axinganxin', '0CGCWRSQ10UM5AAK');
         xingzheng_boyi_etf('tcp://124.74.247.103:19696', '8200', '0013200668', '458230', 'ETF', 'axinganxin', 'ZZB5YQ4SPM8T1IKF');
