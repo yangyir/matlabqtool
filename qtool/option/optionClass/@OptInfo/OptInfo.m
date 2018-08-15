@@ -143,7 +143,24 @@ classdef( Hidden = false,Sealed = false ) OptInfo < handle
             end
             obj.underCode = vout;
         end
-        
+       % 强制类型转换：所有code都是char
+        function [obj] = set.optName(obj, vin)
+            % 强制类型转换：所有code都是char
+            if iscell(vin), vin = vin{1}; end
+            
+            cl = class(vin);
+            switch cl
+                case {'double' }
+                    % disp('强制类型转换：optinfo.underCode应为char');
+                    vout = num2str(vin);                    
+                case {'char'}
+                    vout = vin;
+                otherwise
+                    warning('赋值失败：optinfo.underCode应为char');
+                    return;
+            end
+            obj.optName = vout;
+        end
         % Get各属性方法
         function [name] = getName(obj)
             name = obj.optName;
