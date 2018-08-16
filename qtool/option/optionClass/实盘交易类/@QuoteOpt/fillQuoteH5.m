@@ -33,6 +33,7 @@ function [ self ] = fillQuoteH5( self )
 
 [mkt, level] = getCurrentPrice(num2str(self.code),'3');
 %标的最新价
+%  underCode 应该是510050 而不是510050.SH否则无法获取行情
 self.S = getCurrentPrice(num2str(self.underCode),'1');
 self.S = self.S(1);
 self.last = mkt(1);%期权最新价

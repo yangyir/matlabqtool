@@ -646,7 +646,7 @@ classdef QMS_Fusion < handle
                 self.query_m2tk_quotes(self.callQuotes_);
                 self.query_m2tk_quotes(self.putQuotes_);
                 % 更新期货
-%                 self.query_quotes(self.futquotes_);
+                 self.query_quotes(self.futquotes_);
                 % 更新股票
                 self.query_quotes(self.stkquotes_);
                 self.calc_m2tk_quote(self.callQuotes_);
