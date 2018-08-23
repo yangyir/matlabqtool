@@ -28,7 +28,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray* prhs[])
     int elements_num = 0;
     PositionInfo * addr = NULL;
     bool ret = GetPositionsFromRemote(counter_id, code, elements_num, &addr);
-    plhs[0] = mxCreateStructMatrix(1, elements_num, 9, fieldsStruct);
+    plhs[0] = mxCreateStructMatrix(1, elements_num, 8, fieldsStruct);
     if (ret)
     {
         // Construct C++ Position Vector.
