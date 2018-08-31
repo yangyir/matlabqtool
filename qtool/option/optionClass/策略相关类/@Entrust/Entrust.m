@@ -97,6 +97,13 @@ classdef Entrust < handle
     
     properties
         signalinfo_@struct
+        %tradeid_ uses to create cTradeOpen instance once the entrust is
+        %executed. for entrust with offsetflag == 1, the tradeid_ is for
+        %open trade. for entrust with offsetflag == -1, the tradeid_ is for
+        %closing associated trade. in case the tradeid_ is blank, we don't
+        %associate entrust with individual trades but only positions
+        tradeid_@char
+        
     end
 
     methods
