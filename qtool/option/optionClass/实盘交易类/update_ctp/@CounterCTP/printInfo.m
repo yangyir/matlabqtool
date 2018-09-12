@@ -17,11 +17,11 @@ function [ txt ] = printInfo( self )
 %         quote_url_appendix@char = '/00000001/baseInfo/PriceBoard';
 
 txt = sprintf('Client Info:\n');
-txt = sprintf('%s Type = %s\n',txt, self.srcType);
-txt = sprintf('%sServerAddr = %s\n',txt, self.addr);
+txt = sprintf('%s Type = %s\n',txt, self.counterType);
+txt = sprintf('%sServerAddr = %s\n',txt, self.serverAddr);
 txt = sprintf('%sInvestor = %s:%s\n',txt, self.investor, self.investorPassword);
 txt = sprintf('%sIsLoggedin = %d\n', txt, self.is_Counter_Login);
-txt = sprintf('%s ID = %d\n', txt, self.srcId);
+txt = sprintf('%s ID = %d\n', txt, self.counterId);
 
 if nargout == 0
 disp(txt);
