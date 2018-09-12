@@ -1,4 +1,4 @@
-function [] = mdlogout(id)
+function [] = mdlogout()
 %[res] = mdlogout()
 %-------------------------------------------
 % mdlogout µÇ³öÐÐÇé¡£
@@ -8,7 +8,7 @@ if not(libisloaded('CTP_MarketData'))
     return;
 end
 
-ctpmdlogout(id);
+ctpmdlogout;
 pause(10);
 unloadlibrary('CTP_MarketData');
 end
