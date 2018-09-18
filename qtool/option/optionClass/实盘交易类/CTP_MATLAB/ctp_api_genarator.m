@@ -38,10 +38,6 @@ etf_pwd = '123456';
 
 [counter_id, ret] = counterlogin(etf_front_addr, etf_broker, etf_investor, etf_pwd);
 ret
-% counter_id = ctpcounterlogin(etf_front_addr, etf_broker, etf_investor, etf_pwd);
-[opt_counter_id, ret] = counterlogin(front_addr, broker, investor, pwd_);
-ret
-pause(10);
 
 %% ’Àªß≤È—Ø
 [account, ret] = ctpcounter_getaccountinfo(opt_counter_id);
