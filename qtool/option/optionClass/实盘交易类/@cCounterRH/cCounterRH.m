@@ -108,6 +108,7 @@ classdef cCounterRH < handle
     %% 枚举常用的柜台设置
     enumeration
         rh_demo( 'tcp://120.26.112.186:10001','RohonDemo','jxly01','888888','Futures');
+        rh_demo_tf( 'tcp://192.168.41.194:10001','RohonDemo','yy01','123456','Futures');
     end
     
     
