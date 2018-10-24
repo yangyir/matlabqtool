@@ -5,11 +5,11 @@
 
 #include "mex.h"
 #include "plain_trade_report.h"
-#include "ctp_counter_export_wrapper.h"
+#include "rh_counter_export_wrapper.h"
 #include <Windows.h>
 #include <vector>
 
-#pragma comment(lib, "CTP_Counter.lib")
+#pragma comment(lib, "RonHangSystem.lib")
 
 const char * tradefieldsStruct[] = {"asset_code", "volume", "direction", \
         "trade_price", "trade_time"};
@@ -20,7 +20,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray* prhs[])
     int pos = 0;
     counter_id = mxGetScalar(prhs[pos++]);
     
-    // Get trade vector from CTP counter dll.
+    // Get trade vector from RH counter dll.
     int elements_num = 0;
     PlainTradeReport * addr = NULL;
     QueryAllTrade(counter_id);

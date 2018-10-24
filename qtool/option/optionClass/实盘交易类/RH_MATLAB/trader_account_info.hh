@@ -2,6 +2,7 @@
 #define TRADER_ACCOUNT_INFO_HH
 
 #define DLLEXPORT __declspec(dllexport)
+//#define DLLEXPORT 
 
 struct DLLEXPORT TraderAccountInfo
 {

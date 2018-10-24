@@ -1,9 +1,0 @@
-#ifndef TF_STRATEGY_DEF_HH
-#define TF_STRATEGY_DEF_HH
-
-typedef enum
-{
-    OPTION_FUTURE_LONG_SHORT,
-}STRATEGY_INDEX;
-
-#endif

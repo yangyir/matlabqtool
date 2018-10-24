@@ -4,9 +4,9 @@
  */
 #include "mex.h"
 #include "matrix.h"
-#include "ctp_counter_export_wrapper.h"
+#include "rh_counter_export_wrapper.h"
 
-#pragma comment(lib, "CTP_Counter.lib")
+#pragma comment(lib, "RonHangSystem.lib")
 
 void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
 {

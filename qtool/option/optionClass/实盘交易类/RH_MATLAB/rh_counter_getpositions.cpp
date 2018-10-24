@@ -6,13 +6,13 @@
 
 #include "mex.h"
 #include "position_info.hh"
-#include "ctp_counter_export_wrapper.h"
+#include "rh_counter_export_wrapper.h"
 #include <Windows.h>
 #include <vector>
 
-#pragma comment(lib, "CTP_Counter.lib")
+#pragma comment(lib, "RonHangSystem.lib")
 
-const char * fieldsStruct[] = {"asset_code", "direction", \
+const char * fieldsStruct[] = {"asset_code", "asset_name", "direction", \
         "total_position", "available_position", "avg_price", \
         "face_cost", "margin", "total_fee_cost"};
 
@@ -24,11 +24,11 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray* prhs[])
     counter_id = mxGetScalar(prhs[pos++]);
     code = mxArrayToString(prhs[pos++]);
     
-    // Get Position vector from CTP counter dll.
+    // Get Position vector from RH counter dll.
     int elements_num = 0;
     PositionInfo * addr = NULL;
     bool ret = GetPositionsFromRemote(counter_id, code, elements_num, &addr);
-    plhs[0] = mxCreateStructMatrix(1, elements_num, 8, fieldsStruct);
+    plhs[0] = mxCreateStructMatrix(1, elements_num, 9, fieldsStruct);
     if (ret)
     {
         // Construct C++ Position Vector.
@@ -46,6 +46,8 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray* prhs[])
         {
             // asset_code
             mxSetField(p, i, "asset_code", mxCreateString(vec[i].asset_code_));
+            // asset_name
+            mxSetField(p, i, "asset_name", mxCreateString(vec[i].asset_name_));
             // direction
             int direction = 0;
             switch(vec[i].trade_direction_)

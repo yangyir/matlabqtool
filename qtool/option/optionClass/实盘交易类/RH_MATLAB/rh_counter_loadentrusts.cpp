@@ -4,12 +4,12 @@
  */
 
 #include "mex.h"
-#include "ctp_entrust.hh"
-#include "ctp_counter_export_wrapper.h"
+#include "rh_entrust.hh"
+#include "rh_counter_export_wrapper.h"
 #include <Windows.h>
 #include <vector>
 
-#pragma comment(lib, "CTP_Counter.lib")
+#pragma comment(lib, "RonHangSystem.lib")
 
 const char * tradefieldsStruct[] = {"asset_code", "asset_name", "target_price",\
         "target_volume", "direction", "offset", "entrust_id",\
@@ -21,20 +21,20 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray* prhs[])
     int pos = 0;
     counter_id = mxGetScalar(prhs[pos++]);
     
-    // Get entrust vector from CTP counter dll.
+    // Get entrust vector from RH counter dll.
     int elements_num = 0;
-    CTPEntrust * addr = NULL;
+    RHEntrust * addr = NULL;
     QueryAllOrder(counter_id, elements_num, &addr);
     bool ret = (elements_num > 0 && addr != NULL);
     plhs[0] = mxCreateStructMatrix(1, elements_num, 10, tradefieldsStruct);    
     if (ret)
     {
         // Construct C++ Position Vector.
-        std::vector<CTPEntrust> vec;
+        std::vector<RHEntrust> vec;
         //vec.reserve(elements_num);
         for (int i = 0; i < elements_num; i++)
         {
-            CTPEntrust element = *(addr + i);
+            RHEntrust element = *(addr + i);
             vec.push_back(element);
         }
         

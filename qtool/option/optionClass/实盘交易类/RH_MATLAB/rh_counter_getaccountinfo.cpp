@@ -1,6 +1,6 @@
 /*
- * ctpcounter_getaccountinfo 取账户资金信息
- * [accountinfo, ret] = ctpcounter_getaccountinfo(counter_id)
+ * rh_counter_getaccountinfo 取账户资金信息
+ * [accountinfo, ret] = rh_counter_getaccountinfo(counter_id)
  *  accountinfo 是个结构：包含域如下:
  *    double close_profit_;
  *    double position_profit_;
@@ -17,9 +17,9 @@
 
 #include "mex.h"
 #include "trader_account_info.hh"
-#include "ctp_counter_export_wrapper.h"
+#include "rh_counter_export_wrapper.h"
 
-#pragma comment(lib, "CTP_Counter.lib")
+#pragma comment(lib, "RonHangSystem.lib")
 
 const char * fieldsStruct[] = {"close_profit", "position_profit", \
         "commission", "available_fund", "current_margin", "frozen_margin", \

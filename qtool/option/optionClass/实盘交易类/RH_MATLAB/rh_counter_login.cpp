@@ -5,9 +5,9 @@
  */
 #include "mex.h"
 //#include "matrix.h"
-#include "ctp_counter_export_wrapper.h"
+#include "rh_counter_export_wrapper.h"
 
-#pragma comment(lib, "CTP_Counter.lib")
+#pragma comment(lib, "RonHangSystem.lib")
 
 void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
 {
@@ -26,8 +26,16 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
     product_info = mxArrayToString(prhs[4]);
     authen_code = mxArrayToString(prhs[5]);
     
+	// prepare env load right lib.
+	bool r_env = PrepareEnv("RH_ctp_counter.dll", "");
+	int counter_id = 0;
+	if (!r_env)
+	{
+		plhs[0] = mxCreateDoubleScalar(counter_id);
+	    return;
+	}
     // output values : counter id    
-    int counter_id = 0;
+    
     bool ret = InitCounter(addr, broker, investor, investor_pwd, product_info, authen_code, counter_id);
     if(ret)
     {        

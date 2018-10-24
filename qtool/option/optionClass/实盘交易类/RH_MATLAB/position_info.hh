@@ -18,9 +18,12 @@ typedef enum
 struct DLLEXPORT PositionInfo
 {
     PositionInfo();
-    PositionInfo(const std::string& code, char direct, uint32_t total_position, uint32_t available_position, double avg_price, double face_cost, double margin, double fee_cost);
+    PositionInfo(const std::string& code, const std::string& name, char direct, uint32_t total_position, uint32_t available_position, double avg_price, double face_cost, double margin, double fee_cost);
     void Update(const std::string& code, char direct, uint32_t total_position, uint32_t available_position, double avg_price, double face_cost, double margin, double fee_cost);
+	void fillPosition(const std::string& code, double face_cost, double fee_cost, char direct, int volume);
+	bool merge(const PositionInfo& info);
     char asset_code_[13];
+	char asset_name_[64];
     ///持仓多空方向
     TradeBuySellType trade_direction_;
     ///总持仓
