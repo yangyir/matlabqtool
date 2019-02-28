@@ -124,6 +124,7 @@ classdef CounterRH  < handle
         HuaXiOptTest('tcp://125.64.36.26:52205', '2001', '8880000052', '123456', 'Option');
 		RHTest('tcp://120.136.134.132:10001', 'RohonDemo', 'xhrf01', '888888', 'Future');
         rh_demo_tf( 'tcp://192.168.41.194:10001','RohonDemo','yy01','123456','Future');
+        rh_demo_tf2( 'tcp://192.168.41.189:10001','RohonDemo','qq01','123123','Future');
     end
 
     
